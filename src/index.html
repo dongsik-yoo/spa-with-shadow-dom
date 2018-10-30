@@ -1,0 +1,20 @@
+<div id="app">
+    <div class="head <%= htmlWebpackPlugin.options.serviceName %>">
+        <div id="global-navi-btns" class="layout-align-start-center layout-row">
+            <a class="page-global-navi-bar-btn project-btn" href="/project">Project</a>
+            <a class="page-global-navi-bar-btn mail-btn" href="/mail">Mail</a>
+            <a class="page-global-navi-bar-btn calendar-btn" href="/calendar">Calendar</a>
+            <a class="page-global-navi-bar-btn drive-btn" href="/drive">Drive</a>
+            <a class="page-global-navi-bar-btn wiki-btn" href="/wiki">Wiki</a>
+            <a class="page-global-navi-bar-btn contacts-btn" href="/contacts">Contacts</a>
+        </div>
+    </div>
+    <div class="service-container">
+        <!-- <div id="service-shadow-root"></div> -->
+        <div class="navi"><%= htmlWebpackPlugin.options.serviceName %></div>
+        <div class="contents-layout"></div>
+    </div>
+    <div class="footer">
+        <span class="text">Common Bar Component</span>
+    </div>
+</div>

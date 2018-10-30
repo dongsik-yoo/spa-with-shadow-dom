@@ -1,0 +1,16 @@
+.service-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+
+    .navi {
+        width: 200px;
+        border-right: 1px solid #555;
+    }
+
+    .contents-layout {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+}

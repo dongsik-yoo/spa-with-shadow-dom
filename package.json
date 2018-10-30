@@ -1,0 +1,38 @@
+{
+  "name": "spa-shadow-dom",
+  "version": "0.0.1",
+  "description": "SPA with shadow dom for encapsulation and loading performance",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "SPA",
+    "Shadow",
+    "DOM"
+  ],
+  "author": "DongSik Yoo",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.7.0",
+    "eslint-config-tui": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "tui-calendar": "^1.7.0",
+    "tui-chart": "^3.4.0",
+    "tui-grid": "^3.2.0"
+  }
+}

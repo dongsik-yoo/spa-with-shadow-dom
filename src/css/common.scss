@@ -1,0 +1,11 @@
+.layout-row {
+    display: flex;  
+    flex-direction: row;   
+}
+
+.layout-align-start-center {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    max-width: 100%;
+}
